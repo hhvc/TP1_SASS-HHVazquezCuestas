@@ -1,0 +1,48 @@
+@import "sass-partials/colores";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.navbar{
+    background-color:$colorbase !important;
+}
+.logo{
+    height: 110px;
+        &:hover{
+            background-color: $colorsombra;
+            border-radius: 50%;
+            transition: all .1s;
+        }
+}
+.nav-link{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    color:$colorfuente !important;
+    font-weight: bold;
+    &:hover{
+        font-size: 1.4rem;
+        background-color: $colorsombra;
+        border-radius: 50%;
+        transition: all .1s;
+    }
+}
+.main2{
+    background-color: $bg-color;
+    background-image: $bg-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25rem;
+    &:hover{
+        background-position: 100% 25%;
+        transition: all .4s;
+    }
+}
+.footerUl{
+    display: flex;
+    list-style: none;
+}
+.carousel-indicators li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-top: 1px;
+    border-bottom: 1px;
+    background-color: $colorbase;
+}
